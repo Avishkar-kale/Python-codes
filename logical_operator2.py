@@ -1,0 +1,8 @@
+num1 = input('Enter a number')
+num2 = input('Enter second number')
+print(int(num1) > 5 and int(num2)<10)
+print(int(num1) > 5 or int(num2)<10)
+print(int(num1) is int(num2))
+print(id(num1))
+print(id(num2))
+print(type(num1))
